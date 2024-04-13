@@ -1,7 +1,7 @@
 .header_section{
     position: absolute;
     width: 100%;
-    background-color:#00000030;
+    background-color:#0000004d;
     z-index: 1000;
 }
 .header_section .nav-link{
