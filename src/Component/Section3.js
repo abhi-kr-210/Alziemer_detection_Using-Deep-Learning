@@ -42,7 +42,7 @@ function Section3() {
     <Col lg={3} className='column_details mb-5 '>
     <img src={im3} alt="logo" className='img-fluid mt-3' />
     <div className='text-center'>
-    <h3>6 in 10</h3>
+    <h3>1 in 10</h3>
     <h1>LEWY BODIES</h1>
     <p>Small round clumps of protein (Lewry bodies) build up inside the brain's
     nerve cells ,disrupting the communication.
