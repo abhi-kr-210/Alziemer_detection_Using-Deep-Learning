@@ -1,0 +1,34 @@
+.header_section{
+    position: absolute;
+    width: 100%;
+    background-color:#00000030;
+    z-index: 1000;
+}
+.header_section .nav-link{
+    color:rgb(255, 255, 255) !important;
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+    color: var(--white);
+   
+    text-transform: uppercase;
+    -webkit-transition: all 15ms ease-in-out;
+    -ms-transition: all 15ms ease-in-out;
+    -o-transition: all 15ms ease-in-out;
+    -moz-transition: all 15ms ease-in-out;
+    transition: all 15ms ease-in-out;
+}
+header .logo_img {
+    width: 80px;
+    max-width: inherit;
+    max-height: 80px;
+    transform: scale(1.2);
+    
+}
+
+header .nav-link:hover {
+    color: var(--yellow) !important;
+    text-decoration: underline;
+    
+}
