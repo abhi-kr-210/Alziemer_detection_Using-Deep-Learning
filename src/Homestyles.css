@@ -6,7 +6,7 @@
     background-attachment: fixed;
     padding-top: 190px;
     padding-bottom: 90px;
-    height:700px;
+    
 
 }
 .hero_section_1 h1{
@@ -37,6 +37,9 @@
     background: transparent;
     border-color: black;
     border:1px solid black;
+  }
+  .order_box{
+    margin-top: 200px;
   }
   .about_section{
     background: url("../src/assets/img5.jpg") no-repeat center
@@ -69,6 +72,7 @@
   .num_box h1{
     font-size: 5rem;
     color: #ffffff;
+    
   }
   .small_box_1{
     position: absolute;
@@ -88,4 +92,59 @@
       height:190px;
       width:100%;
       background-color: #f7be27;
+  }
+  /*section 5*/
+  .related_content_box{
+    background: #3E505D;
+    border-radius: 0 0 25px 0;
+    border-top: solid 10px #E63328;
+    color: #ffffff;
+
+  }
+  .related_content_box h3 a{
+    text-decoration: none;
+    
+  }
+  .related_content .read-more:hover{
+     color:#E63328!important;
+  }
+  .related_content .col{
+    min-width: 300px!important;
+   
+  }
+  .style_bar_box{
+    position:relative;
+  }
+  .style_bar{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    right: -2px;
+    top: -7px;
+  }
+  
+  @media (min-width:1400px) {
+    .related_content .col-lg-3{
+      width: 400px;
+    }
+ 
+  }
+  @media (max-width:767px) {
+    .related_content .mx-1 {
+      margin-right: .25rem !important;
+      margin-left: 0px!important;
+    }
+    .related_content .offset-2 {
+      margin-left: 16.66666667% !important;
+  }
+ 
+  }
+  @media (max-width:576px) {
+    .details_section_row{
+      padding:20px;
+    }
+    .most_common_form h1{
+      font-size: 3rem!important;
+    }
   }

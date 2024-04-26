@@ -86,7 +86,7 @@ a {
 .order_now {
   color: var(--light-black);
   background: var(--yellow);
-  border-color: var(--yellow);
+  border:1px solid var(--yellow);
   padding: 15px 38px;
   font-size: 18px;
   font-weight: 600;
@@ -98,9 +98,10 @@ a {
 }
 .order_now:hover,
 .order_now:focus {
-  color: var(--white);
+  color:rgb(255, 255, 255);
   background: transparent;
-  border-color: var(--white);
+  /*border-color: rgb(255, 255, 255);*/
+  border:1px solid rgb(255, 255, 255);
 }
 
 .btn_red {

@@ -1,0 +1,40 @@
+.login_page{
+  
+  /*  background-color: #f4f4f4;*/
+   background: url("../src/assets/blur-hospital.jpg") no-repeat center
+   center; 
+   background-size: cover;
+   width:100%;
+   min-height:100vh;
+   display: flex;
+   align-items: center;
+}
+
+.doctor_image{
+    max-width: 400px !important;
+    max-height: 610px !important;
+}
+.login_page_row{
+    background: url("../src/assets/blur-hospital1.jpg") no-repeat center
+    center; 
+    background-size: cover;
+}
+.column2_login{
+    max-width: 400px !important;
+    max-height: 610px !important;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.column1_login{
+    max-width: 400px !important;
+    max-height: 610px !important;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+@media  (max-width: 767px) {
+
+  .row_container{
+    flex-direction: column-reverse;
+    
+    align-items: center;
+  }
+}
